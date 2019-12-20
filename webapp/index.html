@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<script id="sap-ui-bootstrap" 
+		src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+		data-sap-ui-libs="sap.m, sap.ui.layout" 
+		data-sap-ui-theme="sap_bluecrystal"
+		data-sap-ui-resourceroots='
+		         { "oil.ds.map" : "./" }
+		'></script>
+		
+		<script
+    	  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDEYDZk2ousZQz8X2ducR-GI2Deqtz6Pew">
+    	</script>
+    	
+		<script>
+		    
+		    
+		  //  new google.maps.Map(document.getElementById("content"), {
+				// 	zoom: 10,
+				// 	center: {
+				// 		lat: 20.59,
+				// 		lng: 78.96
+				// 	}
+				// });
+		    
+		    var oView = new sap.ui.view("idMain",{
+		    	viewName:"oil.ds.map.view.Main",
+		    	type:"JS"
+		    })
+			
+			oView.placeAt("content");
+		</script>
+	</head>
+	<body class="sapUiBody">
+		<!-- in below placeholder, we will add UI5 control -->
+		<div id="content"></div>
+	</body>
+</html>

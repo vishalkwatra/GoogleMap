@@ -1,0 +1,1 @@
+{"type":"sap.web","builders":{"configs":{}},"runners":{"configs":{}},"attributes":{"sap.watt.common.setting":["{\"projectType\":[\"sap.web\",\"sap.watt.uitools.ide.fiori\"],\"generation\":[{\"templateId\":\"ui5template.basicSAPUI5ApplicationComponent\",\"templateVersion\":\"1.4.0\",\"dateTimeStamp\":\"Thu, 12 Dec 2019 13:51:04 GMT\"}]}"]},"mixinTypes":[]}
